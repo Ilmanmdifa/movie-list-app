@@ -24,7 +24,7 @@ To see the app in action, follow the [Installation](#installation) steps to run 
    npm install
 3. Set up your API key:
 - Open src/services/api.js.
-- Replace "insert your api key here" with your TMDb API key.
+- Replace "insert your api key here" with your TMDb API key. [Get from The Movie Database](https://www.themoviedb.org/)
 
 4. Start the development server
    ```bash
