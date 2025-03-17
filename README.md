@@ -1,8 +1,45 @@
-# React + Vite
+# Movie List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application that allows users to browse popular movies, search for specific movies, and manage their favorite movie list. The app uses The Movie Database (TMDb) API to fetch movie data.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To see the app in action, follow the [Installation](#installation) steps to run it locally on your machine.
+
+## Features
+
+- **Browse Popular Movies**: View a list of popular movies fetched from TMDb.
+- **Search Movies**: Search for movies by title using the search bar.
+- **Favorites Management**: Add movies to your favorites list and view them on a dedicated page.
+- **Responsive Design**: Fully responsive layout for seamless usage on different devices.
+
+## <div name="#installation">Installation</div>
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/movie-list-app.git
+   cd movie-list-app/frontend
+2. Install dependencies
+   ```bash
+   npm install
+3. Set up your API key:
+- Open src/services/api.js.
+- Replace "insert your api key here" with your TMDb API key.
+
+4. Start the development server
+   ```bash
+   npm run dev
+
+## Usage
+### 1. Home Page:
+
+- Browse popular movies displayed in a grid layout.
+- Use the search bar to find specific movies.
+### 2. Favorites Page:
+
+- View your favorite movies.
+- Add or remove movies from your favorites list.
+### 3. Movie Cards:
+
+- Each movie card displays the movie poster, title, and release year.
+- Click the heart icon to add/remove a movie from your favorites.
