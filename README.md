@@ -13,7 +13,7 @@ To see the app in action, follow the [Installation](#installation) steps to run 
 - **Favorites Management**: Add movies to your favorites list and view them on a dedicated page.
 - **Responsive Design**: Fully responsive layout for seamless usage on different devices.
 
-## <div name="#installation">Installation</div>
+## Installation
 
 1. Clone the repository:
    ```bash
